@@ -1316,3 +1316,9 @@ details p {
   overflow: hidden;
 }
 
+/* Hide search bar on screens 768px wide or less */
+@media (max-width: 768px) {
+  .search-bar {
+    display: none !important;
+  }
+}
